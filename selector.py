@@ -114,6 +114,3 @@ class Selector:
                     startPath = os.path.join(startPath, selected)
                     os.system('cls')
                     continue
-
-path = Selector.selectPath(showFolders=True, filters=[], regex_selector="^[dD].*", use_regex_on_folder=True)
-print(rf"Your choice: {path}")
