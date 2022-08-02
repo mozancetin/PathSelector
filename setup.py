@@ -1,18 +1,15 @@
-# python package setup file
-
-
 from setuptools import setup, find_packages
 
-VERSION = '0.1.0'
+VERSION = '0.1.3'
 setup(
     name='PathSelector',
     version=VERSION,
     description='PathSelector is a simple path selection module for python.',
     author='Mustafa Ozan Çetin',
     author_email='',
-    url='',
+    url='https://github.com/mozancetin/PathSelector',
     license='MIT',
-    packages=find_packages(),
+    packages=find_packages(""),
     install_requires=[],
     keywords=['python', 'path', 'selector', 'file', 'directory'],
     classifiers=[
@@ -23,4 +20,3 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
 )
-# end of file
