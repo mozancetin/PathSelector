@@ -98,3 +98,6 @@ Your choice: aphrodite.docx
 Do you really want to select it [Y/n]: y
 'C:\\Users\\mozancetin\\Desktop\\aphrodite.docx'
 ```
+
+# Contributions
+This project is open to contributions
